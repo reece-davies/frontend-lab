@@ -6,8 +6,8 @@ export default function Home() {
       <h1 className="text-xl">Page list</h1>
       <ul>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/CenterDiv">CenterDiv</Link></li>
-        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/">Itm2</Link></li>
-        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/">Itm3</Link></li>
+        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/Navbars">Navbars</Link></li>
+        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/">Itm</Link></li>
       </ul>
     </div>
   );
