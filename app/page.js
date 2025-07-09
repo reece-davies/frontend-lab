@@ -7,7 +7,7 @@ export default function Home() {
       <ul>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/CenterDiv">CenterDiv</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/Navbars">Navbars</Link></li>
-        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/">Itm</Link></li>
+        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/HeaderSection">HeaderSection</Link></li>
       </ul>
     </div>
   );
