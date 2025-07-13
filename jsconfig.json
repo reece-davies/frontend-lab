@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",                 // 👈 required to enable absolute imports
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]               // 👈 now @ maps to the root of your project
     }
   }
 }
