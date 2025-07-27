@@ -1,6 +1,7 @@
 'use client'
 import DecryptedText from '@/components/DecryptedText/DecryptedText.jsx';
 import Carousel from '@/components/Carousel/Carousel.jsx'
+import TextType from '@/components/TextType/TextType.jsx';
 //console.log('TEST:', require('@/components/DecryptedText/DecryptedText.jsx'));
 
 export default function ReactBitsTesting() {
@@ -20,7 +21,7 @@ export default function ReactBitsTesting() {
 
       <h2 className="text-xl font-bold">Carousel</h2>
       <p>npx jsrepo add https://reactbits.dev/tailwind/Components/Carousel</p>
-      <div style={{ height: '600px', position: 'relative' }}>
+      <div style={{ position: 'relative' }}>
         <Carousel
           baseWidth={300}
           autoplay={true}
@@ -31,6 +32,17 @@ export default function ReactBitsTesting() {
         />
       </div>
 
+
+      <h2 className="text-xl font-bold">Text type</h2>
+      <p>npx jsrepo add https://reactbits.dev/tailwind/TextAnimations/TextType</p>
+      <TextType 
+        text={["Text typing effect", "for your websites"]}
+        typingSpeed={75}
+        pauseDuration={1500}
+        showCursor={true}
+        cursorCharacter="|"
+        className='text-2xl font-bold'
+      />
 
     </div>
   );
