@@ -1,5 +1,6 @@
 'use client'
 import DecryptedText from '@/components/DecryptedText/DecryptedText.jsx';
+import Carousel from '@/components/Carousel/Carousel.jsx'
 //console.log('TEST:', require('@/components/DecryptedText/DecryptedText.jsx'));
 
 export default function ReactBitsTesting() {
@@ -14,7 +15,23 @@ export default function ReactBitsTesting() {
         speed="180"
         animateOn="view"
         revealDirection="start"
+      />
+
+
+      <h2 className="text-xl font-bold">Carousel</h2>
+      <p>npx jsrepo add https://reactbits.dev/tailwind/Components/Carousel</p>
+      <div style={{ height: '600px', position: 'relative' }}>
+        <Carousel
+          baseWidth={300}
+          autoplay={true}
+          autoplayDelay={3000}
+          pauseOnHover={true}
+          loop={true}
+          round={false}
         />
+      </div>
+
+
     </div>
   );
 }
