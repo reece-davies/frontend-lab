@@ -48,10 +48,10 @@ export default function HeaderSection() {
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
             This has been taken from <a
-              href="https://merakiui.com"
+              href="https://tailwindcss.com/plus/ui-blocks/marketing/sections/header"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline hover:text-blue-700">Tailwind CSS templates Header Section.</a>
+              className="text-blue-500 underline hover:text-blue-700">Tailwind CSS Plus templates Header Section.</a>
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

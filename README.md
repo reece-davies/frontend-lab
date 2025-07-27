@@ -10,6 +10,7 @@ This repository is intended for:
 ## Tech Stack
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind CSS Plus](https://tailwindcss.com/plus/ui-blocks/marketing/sections/header)
 - [Meraki UI](https://merakiui.com/)
 - [React Bits](https://reactbits.dev/)
 
