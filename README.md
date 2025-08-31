@@ -13,6 +13,7 @@ This repository is intended for:
 - [Tailwind CSS Plus](https://tailwindcss.com/plus/ui-blocks/marketing/sections/header)
 - [Meraki UI](https://merakiui.com/)
 - [React Bits](https://reactbits.dev/)
+- [Radix Icons](https://www.radix-ui.com/icons)
 
 ## Notes
 This is a work-in-progress space for experiments and creative frontend development.  
