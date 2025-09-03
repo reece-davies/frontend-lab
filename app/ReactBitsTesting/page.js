@@ -1,7 +1,8 @@
 'use client'
 import DecryptedText from '@/components/DecryptedText/DecryptedText.jsx';
 import Carousel from '@/components/Carousel/Carousel.jsx'
-import TextType from '@/components/TextType/TextType.jsx';
+import TextType from '@/components/TextType/TextType.jsx'
+import ScrollVelocity from '@/components/ScrollVelocity';
 //console.log('TEST:', require('@/components/DecryptedText/DecryptedText.jsx'));
 
 export default function ReactBitsTesting() {
@@ -44,6 +45,12 @@ export default function ReactBitsTesting() {
         className='text-2xl font-bold'
       />
 
+      <h2 className='text-xl font-bold'>Scroll velocity</h2>
+      <ScrollVelocity
+        texts={['Python', 'Text', 'Scroll Down']} 
+        velocity={100} 
+        className="custom-scroll-text"
+      />
     </div>
   );
 }
