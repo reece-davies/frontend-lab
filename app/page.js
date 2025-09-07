@@ -10,6 +10,7 @@ export default function Home() {
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/HeaderSection">HeaderSection</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/MerakiUIAlerts">MerakiUIAlerts</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/ReactBitsTesting">ReactBitsTesting</Link></li>
+        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/ReactBitsWallpaper">ReactBitsWallpaper</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/Flexbox">Flexbox</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/ResponsiveLayout">ResponsiveLayout</Link></li>
         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/RadixIcons">RadixIcons</Link></li>
