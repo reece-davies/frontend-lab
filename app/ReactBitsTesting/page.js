@@ -2,7 +2,7 @@
 import DecryptedText from '@/components/DecryptedText/DecryptedText.jsx';
 import Carousel from '@/components/Carousel/Carousel.jsx'
 import TextType from '@/components/TextType/TextType.jsx'
-import ScrollVelocity from '@/components/ScrollVelocity';
+import ScrollVelocity from '@/components/ScrollVelocity/ScrollVelocity';
 //console.log('TEST:', require('@/components/DecryptedText/DecryptedText.jsx'));
 
 export default function ReactBitsTesting() {
@@ -46,6 +46,7 @@ export default function ReactBitsTesting() {
       />
 
       <h2 className='text-xl font-bold'>Scroll velocity</h2>
+      <p>npx shadcn@latest add https://reactbits.dev/r/ScrollVelocity-JS-TW</p>
       <ScrollVelocity
         texts={['Python', 'Text', 'Scroll Down']} 
         velocity={100} 
